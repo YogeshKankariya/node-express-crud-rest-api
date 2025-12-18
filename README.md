@@ -44,31 +44,37 @@ REST_API_PROJECT
 ## 📦 Installation & Setup
 
 1. Clone the repository
-git clone https://github.com/YogeshKankariya/node-express-crud-rest-api.git
+- git clone https://github.com/YogeshKankariya/node-express-crud-rest-api.git
 
 2. Navigate to the project folder
-cd node-express-crud-rest-api
+- cd node-express-crud-rest-api
 
 3. Install dependencies
-npm install
+- npm install
 
 4. Start the server
-npm start
-Server will run on: http://localhost:5000
+- npm start
+
+5. Server will run on: http://localhost:5000
 
 ---
 
 ## 🔗 API Endpoints
 
-Get all users  GET /users
-Get user by ID  GET /users/:id
-Create a user  POST /users
-Body (JSON):  {
-                "firstName": "Yogesh",
-                "lastName": "Kankariya",
-                "age": 18
-              }
-Delete a user  DELETE /users/:id
+1. Get all users
+- GET /users
+2. Get user by ID
+- GET /users/:id
+3. Create a user
+- POST /users
+4. Body (JSON):
+- {
+    "firstName": "Yogesh",
+    "lastName": "Kankariya",
+    "age": 18
+  }  
+5. Delete a user
+- DELETE /users/:id
 
 ---
 
