@@ -56,7 +56,9 @@ npm install
 npm start
 Server will run on: http://localhost:5000
 
-🔗 API Endpoints
+---
+
+## 🔗 API Endpoints
 
 Get all users  GET /users
 Get user by ID  GET /users/:id
@@ -68,20 +70,28 @@ Body (JSON):  {
               }
 Delete a user  DELETE /users/:id
 
-🧪 Testing
+---
+
+## 🧪 Testing
 You can test all API endpoints using Postman.
 
-📌 Notes
+---
+
+## 📌 Notes
 Data is stored in-memory, so it resets on server restart
 This project is meant for learning purposes
 
-✨ Future Improvements
+---
+
+## ✨ Future Improvements
 1. Add PUT (update user)
 2. Add MongoDB integration
 3. Input validation
 4. Error handling
 5. Authentication
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
 Yogesh Kankariya
 Engineering Student | Learning Backend Development 🚀
